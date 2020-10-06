@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Bemvindo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Bemvindo\\.nuget\\packages"
+    ]
+  }
+}
