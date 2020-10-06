@@ -15,9 +15,15 @@ namespace aspnetcoreapp
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+
+        public IWebHostEnvironment Ambiente {get;}
+
+        public Startup(IConfiguration configuration,
+                        IWebHostEnvironment webHostEnvironment)
         {
+            Ambiente = webHostEnvironment;
             Configuration = configuration;
+            
         }
 
         public IConfiguration Configuration { get; }
